@@ -1,0 +1,27 @@
+name: darsvaqti_app
+description: DarsVaqti - ustozlar uchun dars jadvali va eslatma ilovasi.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  get_it: ^7.7.0
+  shared_preferences: ^2.3.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  flutter_timezone: ^5.0.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
